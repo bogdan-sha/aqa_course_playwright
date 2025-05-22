@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ba91f09-91fd-403b-afd9-29e9a64dbdf5" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2xQGN5tqnlpCEUiQS1Z4toi8FYM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with already created user.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with empty password.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with empty username.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with long password.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with long username.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with password all spaces.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with postfix username.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with prefix password.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with prefix username.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with short username.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with uppercase password.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with username all spaces.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Register new user.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Registration with negative cases.Register with empty fields.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Registration with negative cases.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "<unknown>",
+    "last_opened_file_path": "/Users/bahdanshamukou/Documents/aqa_course_playwright",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with already created user">
+    <configuration name="[UI] [Demo Login Form] Registration" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/ui/tests/hw-18/task-1.spec.ts" />
+      <test-names>
+        <test-name value="[UI] [Demo Login Form] Registration" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="[UI] [Demo Login Form] Registration.Negative cases for registration.Register with already created user" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/ui/tests/hw-18/task-1.spec.ts" />
+      <test-names>
+        <test-name value="[UI] [Demo Login Form] Registration" />
+        <test-name value="Negative cases for registration" />
+        <test-name value="Register with already created user" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="[UI] [Demo Login Form] Registration.Negative cases for registration.Register with prefix username" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/ui/tests/hw-18/task-1.spec.ts" />
+      <test-names>
+        <test-name value="[UI] [Demo Login Form] Registration" />
+        <test-name value="Negative cases for registration" />
+        <test-name value="Register with prefix username" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="[UI] [Demo Login Form] Registration.Negative cases for registration.Register with uppercase password" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/ui/tests/hw-18/task-1.spec.ts" />
+      <test-names>
+        <test-name value="[UI] [Demo Login Form] Registration" />
+        <test-name value="Negative cases for registration" />
+        <test-name value="Register with uppercase password" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="[UI] [Demo Login Form] Registration.Register new user" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/ui/tests/hw-18/task-1.spec.ts" />
+      <test-names>
+        <test-name value="[UI] [Demo Login Form] Registration" />
+        <test-name value="Register new user" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with already created user" />
+        <item itemvalue="Playwright.[UI] [Demo Login Form] Registration" />
+        <item itemvalue="Playwright.[UI] [Demo Login Form] Registration.Register new user" />
+        <item itemvalue="Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with uppercase password" />
+        <item itemvalue="Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with prefix username" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.120" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ba91f09-91fd-403b-afd9-29e9a64dbdf5" name="Changes" comment="" />
+      <created>1747862841029</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747862841029</updated>
+      <workItem from="1747862842246" duration="14192000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
