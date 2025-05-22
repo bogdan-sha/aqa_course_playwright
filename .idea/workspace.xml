@@ -6,13 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="3ba91f09-91fd-403b-afd9-29e9a64dbdf5" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/playwright.config.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ui/tests/example.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/tests/hw-18/task-1.spec.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tests-examples/demo-todo-app.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,52 +27,47 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="hw-18" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="2xQGN5tqnlpCEUiQS1Z4toi8FYM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with already created user.executor&quot;: &quot;Run&quot;,
-    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with empty password.executor&quot;: &quot;Run&quot;,
-    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with empty username.executor&quot;: &quot;Run&quot;,
-    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with long password.executor&quot;: &quot;Run&quot;,
-    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with long username.executor&quot;: &quot;Run&quot;,
-    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with password all spaces.executor&quot;: &quot;Run&quot;,
-    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with postfix username.executor&quot;: &quot;Run&quot;,
-    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with prefix password.executor&quot;: &quot;Run&quot;,
-    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with prefix username.executor&quot;: &quot;Run&quot;,
-    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with short username.executor&quot;: &quot;Run&quot;,
-    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with uppercase password.executor&quot;: &quot;Run&quot;,
-    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with username all spaces.executor&quot;: &quot;Run&quot;,
-    &quot;Playwright.[UI] [Demo Login Form] Registration.Register new user.executor&quot;: &quot;Run&quot;,
-    &quot;Playwright.[UI] [Demo Login Form] Registration.Registration with negative cases.Register with empty fields.executor&quot;: &quot;Run&quot;,
-    &quot;Playwright.[UI] [Demo Login Form] Registration.Registration with negative cases.executor&quot;: &quot;Run&quot;,
-    &quot;Playwright.[UI] [Demo Login Form] Registration.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/bahdanshamukou/Documents/aqa_course_playwright&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with already created user.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with empty password.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with empty username.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with long password.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with long username.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with password all spaces.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with postfix username.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with prefix password.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with prefix username.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with short username.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with uppercase password.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with username all spaces.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Register new user.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Registration with negative cases.Register with empty fields.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.Registration with negative cases.executor": "Run",
+    "Playwright.[UI] [Demo Login Form] Registration.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "hw-18",
+    "last_opened_file_path": "/Users/bahdanshamukou/Documents/aqa_course_playwright",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with already created user">
     <configuration name="[UI] [Demo Login Form] Registration" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
@@ -143,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with already created user" />
+        <item itemvalue="Playwright.[UI] [Demo Login Form] Registration" />
         <item itemvalue="Playwright.[UI] [Demo Login Form] Registration.Register new user" />
         <item itemvalue="Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with uppercase password" />
         <item itemvalue="Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with prefix username" />
-        <item itemvalue="Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with already created user" />
-        <item itemvalue="Playwright.[UI] [Demo Login Form] Registration" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747862841029</updated>
-      <workItem from="1747862842246" duration="14192000" />
+      <workItem from="1747862842246" duration="13528000" />
     </task>
     <servers />
   </component>
