@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ba91f09-91fd-403b-afd9-29e9a64dbdf5" name="Changes" comment="" />
+    <list default="true" id="3ba91f09-91fd-403b-afd9-29e9a64dbdf5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,20 +48,29 @@
     &quot;Playwright.[UI] [Demo Login Form] Registration.Registration with negative cases.Register with empty fields.executor&quot;: &quot;Run&quot;,
     &quot;Playwright.[UI] [Demo Login Form] Registration.Registration with negative cases.executor&quot;: &quot;Run&quot;,
     &quot;Playwright.[UI] [Demo Login Form] Registration.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[UI] [Sales Portal] [Customers].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;hw-18&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hw-21&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/bahdanshamukou/Documents/aqa_course_playwright&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/bahdanshamukou/Documents/aqa_course_playwright/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Playwright.[UI] [Demo Login Form] Registration">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/config" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/data" />
+      <recent name="$PROJECT_DIR$/src/ui" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Playwright.[UI] [Sales Portal] [Customers]">
     <configuration name="[UI] [Demo Login Form] Registration" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
@@ -83,20 +94,6 @@
         <test-name value="[UI] [Demo Login Form] Registration" />
         <test-name value="Negative cases for registration" />
         <test-name value="Register with already created user" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="[UI] [Demo Login Form] Registration.Negative cases for registration.Register with prefix username" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/ui/tests/hw-18/task-1.spec.ts" />
-      <test-names>
-        <test-name value="[UI] [Demo Login Form] Registration" />
-        <test-name value="Negative cases for registration" />
-        <test-name value="Register with prefix username" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -127,13 +124,25 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="[UI] [Sales Portal] [Customers]" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/ui/tests/SalesPortal/customers/add-new-customer.spec.ts" />
+      <test-names>
+        <test-name value="[UI] [Sales Portal] [Customers]" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Playwright.[UI] [Sales Portal] [Customers]" />
         <item itemvalue="Playwright.[UI] [Demo Login Form] Registration" />
         <item itemvalue="Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with already created user" />
         <item itemvalue="Playwright.[UI] [Demo Login Form] Registration.Register new user" />
         <item itemvalue="Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with uppercase password" />
-        <item itemvalue="Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with prefix username" />
       </list>
     </recent_temporary>
   </component>
@@ -153,10 +162,39 @@
       <option name="presentableId" value="Default" />
       <updated>1747862841029</updated>
       <workItem from="1747862842246" duration="13528000" />
+      <workItem from="1748641571496" duration="2756000" />
+      <workItem from="1748644340187" duration="733000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/playwright.config.js" />
+        <option value="$PROJECT_DIR$/src/types/customer.types.js" />
+        <option value="$PROJECT_DIR$/src/types/home.types.js" />
+        <option value="$PROJECT_DIR$/src/data/customers/generateCustomer.data.js" />
+        <option value="$PROJECT_DIR$/src/data/customers/countries.data.js" />
+        <option value="$PROJECT_DIR$/src/ui/tests/hw-19/task-2.spec.js" />
+        <option value="$PROJECT_DIR$/src/ui/tests/hw-19/task-1.spec.js" />
+        <option value="$PROJECT_DIR$/src/ui/pages/customers/customers.page.js" />
+        <option value="$PROJECT_DIR$/src/ui/pages/customers/add-new-customers.page.js" />
+        <option value="$PROJECT_DIR$/src/config/environment.js" />
+        <option value="$PROJECT_DIR$/src/utils/enum.utils.js" />
+        <option value="$PROJECT_DIR$/src/ui/tests/hw-21/task-2.spec.js" />
+        <option value="$PROJECT_DIR$/src/ui/tests/hw-21/task-1.spec.js" />
+        <option value="$PROJECT_DIR$/tests-examples/demo-todo-app.spec.js" />
+        <option value="$PROJECT_DIR$/src/data/notifications.data.js" />
+        <option value="$PROJECT_DIR$/src/ui/pages/home.page.js" />
+        <option value="$PROJECT_DIR$/src/ui/pages/salesPortal.page.js" />
+        <option value="$PROJECT_DIR$/src/ui/pages/signIn.page.js" />
+        <option value="$PROJECT_DIR$/src/ui/tests/hw-20/task-2.spec.js" />
+        <option value="$PROJECT_DIR$/src/ui/tests/hw-20/task-1.spec.js" />
+        <option value="$PROJECT_DIR$/src/ui/tests/example.spec.js" />
+        <option value="$PROJECT_DIR$/src/ui/tests/hw-18/task-1.spec.js" />
+        <option value="$PROJECT_DIR$/src/ui/tests/SalesPortal/customers/add-new-customer.spec.js" />
+      </list>
+    </option>
   </component>
 </project>
