@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ba91f09-91fd-403b-afd9-29e9a64dbdf5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/customers/countries.data.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/customers/generateCustomer.data.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/notifications.data.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/customer.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/home.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/pages/customers/add-new-customers.page.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/pages/customers/customers.page.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/pages/home.page.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/pages/salesPortal.page.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/pages/signIn.page.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/tests/SalesPortal/customers/add-new-customer.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/tests/hw-21/task-1.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/tests/hw-21/task-2.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/enum.utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/playwright.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +163,7 @@
       <updated>1747862841029</updated>
       <workItem from="1747862842246" duration="13528000" />
       <workItem from="1748641571496" duration="2756000" />
-      <workItem from="1748644340187" duration="29000" />
+      <workItem from="1748644340187" duration="733000" />
     </task>
     <servers />
   </component>
