@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ba91f09-91fd-403b-afd9-29e9a64dbdf5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/tests/customers/create.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/tests/customers/delete.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/tests/customers/getByID.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/tests/customers/update.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/tests/signIn/sign-in.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/api-config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/schemas/customers/customer.schema.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/schemas/customers/sign-in.schema.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/statusCodes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/validations/schemaValidation.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/playwright.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw-21" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,47 +35,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Playwright.UI] [Sales Portal] [Customers] (1).executor": "Run",
-    "Playwright.UI] [Sales Portal] [Customers].Should check created customer in table.executor": "Run",
-    "Playwright.UI] [Sales Portal] [Customers].Should check filtered by country table data.executor": "Run",
-    "Playwright.UI] [Sales Portal] [Customers].Should check that new customer in table successfully deleted.executor": "Run",
-    "Playwright.UI] [Sales Portal] [Customers].executor": "Run",
-    "Playwright.[API] [Customers] [Create].Create customer with smoke data.executor": "Run",
-    "Playwright.[API] [Customers] [Sign In].Sign in with exist user.executor": "Run",
-    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with already created user.executor": "Run",
-    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with empty password.executor": "Run",
-    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with empty username.executor": "Run",
-    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with long password.executor": "Run",
-    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with long username.executor": "Run",
-    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with password all spaces.executor": "Run",
-    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with postfix username.executor": "Run",
-    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with prefix password.executor": "Run",
-    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with prefix username.executor": "Run",
-    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with short username.executor": "Run",
-    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with uppercase password.executor": "Run",
-    "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with username all spaces.executor": "Run",
-    "Playwright.[UI] [Demo Login Form] Registration.Register new user.executor": "Run",
-    "Playwright.[UI] [Demo Login Form] Registration.Registration with negative cases.Register with empty fields.executor": "Run",
-    "Playwright.[UI] [Demo Login Form] Registration.Registration with negative cases.executor": "Run",
-    "Playwright.[UI] [Demo Login Form] Registration.executor": "Run",
-    "Playwright.[UI] [Sales Portal] [Customers].executor": "Run",
-    "Playwright.table.spec.ts.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "hw-23",
-    "last_opened_file_path": "/Users/bahdanshamukou/Documents/aqa_course_playwright",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.typescriptcompiler",
-    "ts.external.directory.path": "/Users/bahdanshamukou/Documents/aqa_course_playwright/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Playwright.UI] [Sales Portal] [Customers] (1).executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.UI] [Sales Portal] [Customers].Should check created customer in table.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.UI] [Sales Portal] [Customers].Should check filtered by country table data.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.UI] [Sales Portal] [Customers].Should check that new customer in table successfully deleted.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.UI] [Sales Portal] [Customers].executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[API] [Customers] [Create].Create customer with smoke data.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[API] [Customers] [Sign In].Sign in with exist user.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with already created user.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with empty password.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with empty username.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with long password.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with long username.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with password all spaces.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with postfix username.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with prefix password.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with prefix username.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with short username.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with uppercase password.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with username all spaces.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[UI] [Demo Login Form] Registration.Register new user.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[UI] [Demo Login Form] Registration.Registration with negative cases.Register with empty fields.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[UI] [Demo Login Form] Registration.Registration with negative cases.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[UI] [Demo Login Form] Registration.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.[UI] [Sales Portal] [Customers].executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.table.spec.ts.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hw-23&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bahdanshamukou/Documents/aqa_course_playwright&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.typescriptcompiler&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/bahdanshamukou/Documents/aqa_course_playwright/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/utils/validations" />
