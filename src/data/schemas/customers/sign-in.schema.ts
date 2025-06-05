@@ -1,7 +1,7 @@
 export const signInSchema = {
     type: "object",
     properties: {
-        Customer: {
+        User: {
             type: "object",
             properties: {
                 _id: { type: "string" },

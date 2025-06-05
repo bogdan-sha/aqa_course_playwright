@@ -22,6 +22,8 @@ test.describe('[API] [Customers] [Sign In]', () => {
 
         expect.soft(loginResponse.status()).toBe(STATUS_CODES.OK);
         expect.soft(token).toBeTruthy();
+        expect.soft(body.IsSuccess).toBe(true);
+        expect.soft(body.ErrorMessage).toBe(null);
         validateSchema(signInSchema, body);
     });
 });

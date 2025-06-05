@@ -33,7 +33,7 @@ test.describe("[API] [Customers] [Create]", () => {
         };
         expect.soft(loginResponse.status()).toBe(STATUS_CODES.OK);
         expect.soft(token).toBeTruthy();
-        expect.soft(body.User).toMatchObject(expectedUser);
+        expect.soft(body.Customer).toMatchObject(expectedUser);
         expect.soft(body.ErrorMessage).toBe(null);
         expect.soft(body.IsSuccess).toBe(true);
 
