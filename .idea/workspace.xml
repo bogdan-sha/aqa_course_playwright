@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ba91f09-91fd-403b-afd9-29e9a64dbdf5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/api/apiClients/request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/controllers/customers.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fixtures/controllers.fixture.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/api.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/requestParams.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/validations/responseValidation.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/pages/signIn.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/pages/signIn.page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/tests/customers/create.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/tests/customers/create.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/tests/signIn/sign-in.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/tests/signIn/sign-in.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/schemas/customers/sign-in.schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/schemas/customers/sign-in.schema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/customer.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/customer.types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +52,10 @@
     "Playwright.UI] [Sales Portal] [Customers].Should check filtered by country table data.executor": "Run",
     "Playwright.UI] [Sales Portal] [Customers].Should check that new customer in table successfully deleted.executor": "Run",
     "Playwright.UI] [Sales Portal] [Customers].executor": "Run",
+    "Playwright.[API] [Customers] [Create].Create customer with smoke data and Controller.executor": "Run",
     "Playwright.[API] [Customers] [Create].Create customer with smoke data.executor": "Run",
     "Playwright.[API] [Customers] [Sign In].Sign in with exist user.executor": "Run",
+    "Playwright.[API] [Customers] [Sign In].executor": "Run",
     "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with already created user.executor": "Run",
     "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with empty password.executor": "Run",
     "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with empty username.executor": "Run",
@@ -72,7 +83,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.typescriptcompiler",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
     "ts.external.directory.path": "/Users/bahdanshamukou/Documents/aqa_course_playwright/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -86,32 +97,7 @@
       <recent name="$PROJECT_DIR$/src/ui/pages/customers" />
     </key>
   </component>
-  <component name="RunManager" selected="Playwright.[API] [Customers] [Sign In].Sign in with exist user">
-    <configuration name="UI] [Sales Portal] [Customers] (1)" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/ui/tests/SalesPortal/customers/delete-new-customer.spec.ts" />
-      <test-names>
-        <test-name value="UI] [Sales Portal] [Customers]" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="UI] [Sales Portal] [Customers].Should check filtered by country table data" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/ui/tests/SalesPortal/customers/table.spec.ts" />
-      <test-names>
-        <test-name value="UI] [Sales Portal] [Customers]" />
-        <test-name value="Should check filtered by country table data" />
-      </test-names>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Playwright.[API] [Customers] [Create].Create customer with smoke data and Controller">
     <configuration name="UI] [Sales Portal] [Customers].Should check that new customer in table successfully deleted" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
@@ -125,6 +111,19 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="[API] [Customers] [Create].Create customer with smoke data and Controller" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/api/tests/customers/create.spec.ts" />
+      <test-names>
+        <test-name value="[API] [Customers] [Create]" />
+        <test-name value="Create customer with smoke data and Controller" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="[API] [Customers] [Create].Create customer with smoke data" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
@@ -135,6 +134,18 @@
       <test-names>
         <test-name value="[API] [Customers] [Create]" />
         <test-name value="Create customer with smoke data" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="[API] [Customers] [Sign In]" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/api/tests/signIn/sign-in.spec.ts" />
+      <test-names>
+        <test-name value="[API] [Customers] [Sign In]" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -153,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Playwright.[API] [Customers] [Sign In].Sign in with exist user" />
+        <item itemvalue="Playwright.[API] [Customers] [Create].Create customer with smoke data and Controller" />
         <item itemvalue="Playwright.[API] [Customers] [Create].Create customer with smoke data" />
+        <item itemvalue="Playwright.[API] [Customers] [Sign In].Sign in with exist user" />
+        <item itemvalue="Playwright.[API] [Customers] [Sign In]" />
         <item itemvalue="Playwright.UI] [Sales Portal] [Customers].Should check that new customer in table successfully deleted" />
-        <item itemvalue="Playwright.UI] [Sales Portal] [Customers].Should check filtered by country table data" />
-        <item itemvalue="Playwright.UI] [Sales Portal] [Customers] (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -184,31 +195,5 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/playwright.config.js" />
-        <option value="$PROJECT_DIR$/src/types/customer.types.js" />
-        <option value="$PROJECT_DIR$/src/types/home.types.js" />
-        <option value="$PROJECT_DIR$/src/data/customers/generateCustomer.data.js" />
-        <option value="$PROJECT_DIR$/src/data/customers/countries.data.js" />
-        <option value="$PROJECT_DIR$/src/ui/tests/hw-19/task-2.spec.js" />
-        <option value="$PROJECT_DIR$/src/ui/tests/hw-19/task-1.spec.js" />
-        <option value="$PROJECT_DIR$/src/ui/pages/customers/add-new-customers.page.js" />
-        <option value="$PROJECT_DIR$/src/config/environment.js" />
-        <option value="$PROJECT_DIR$/src/utils/enum.utils.js" />
-        <option value="$PROJECT_DIR$/src/ui/tests/hw-21/task-2.spec.js" />
-        <option value="$PROJECT_DIR$/src/ui/tests/hw-21/task-1.spec.js" />
-        <option value="$PROJECT_DIR$/tests-examples/demo-todo-app.spec.js" />
-        <option value="$PROJECT_DIR$/src/data/notifications.data.js" />
-        <option value="$PROJECT_DIR$/src/ui/pages/home.page.js" />
-        <option value="$PROJECT_DIR$/src/ui/pages/salesPortal.page.js" />
-        <option value="$PROJECT_DIR$/src/ui/pages/signIn.page.js" />
-        <option value="$PROJECT_DIR$/src/ui/tests/hw-20/task-2.spec.js" />
-        <option value="$PROJECT_DIR$/src/ui/tests/hw-20/task-1.spec.js" />
-        <option value="$PROJECT_DIR$/src/ui/tests/example.spec.js" />
-        <option value="$PROJECT_DIR$/src/ui/tests/hw-18/task-1.spec.js" />
-        <option value="$PROJECT_DIR$/src/ui/tests/SalesPortal/customers/add-new-customer.spec.js" />
-      </list>
-    </option>
   </component>
 </project>

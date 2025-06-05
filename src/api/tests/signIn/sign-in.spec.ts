@@ -1,9 +1,9 @@
 import {expect, test} from "@playwright/test";
-import {apiConfig} from "../../../config/api-config";
-import {USER_LOGIN, USER_PASSWORD} from "../../../config/environment";
-import {STATUS_CODES} from "../../../data/statusCodes";
-import {validateSchema} from "../../../utils/validations/schemaValidation";
-import {signInSchema} from "../../../data/schemas/customers/sign-in.schema";
+import {apiConfig} from "config/api-config";
+import {USER_LOGIN, USER_PASSWORD} from "config/environment";
+import {STATUS_CODES} from "data/statusCodes";
+import {validateSchema} from "utils/validations/schemaValidation";
+import {signInSchema} from "data/schemas/customers/sign-in.schema";
 
 test.describe('[API] [Customers] [Sign In]', () => {
     let token = "";
