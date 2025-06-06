@@ -1,13 +1,15 @@
-import test, { expect } from "@playwright/test";
+import {test, expect } from "fixtures/controllers.fixture";
 import { apiConfig } from "config/api-config";
 import {USER_LOGIN, USER_PASSWORD} from "config/environment";
 import { generateCustomerData } from "data/customers/generateCustomer.data";
 import { customerSchema } from "data/schemas/customers/customer.schema";
 import { STATUS_CODES } from "data/statusCodes";
 import { validateSchema } from "utils/validations/schemaValidation";
+import {ICredentials} from "../../../types/user.types";
+import {validateResponse} from "../../../utils/validations/responseValidation";
 
 test.describe("[API] [Customers] [Update]", () => {
-    test("Update customer with smoke data", async ({ request }) => {
+    test.skip("Update customer with smoke data", async ({ request }) => {
         const loginResponse = await request.post(apiConfig.BASE_URL + apiConfig.ENDPOINTS.LOGIN, {
             data: { username: USER_LOGIN, password: USER_PASSWORD },
             headers: {
@@ -57,5 +59,32 @@ test.describe("[API] [Customers] [Update]", () => {
             }
         );
         expect.soft(response.status()).toBe(STATUS_CODES.DELETED);
+    });
+
+    test("[Controllers] Update customer with smoke data", async ({ signInController, customersController }) => {
+        const credential: ICredentials = {
+            username: USER_LOGIN,
+            password: USER_PASSWORD,
+        };
+        const loginResponse = await signInController.signIn(credential)
+
+        const headers = loginResponse.headers;
+        const token = headers["authorization"];
+        validateResponse(loginResponse, STATUS_CODES.OK, true, null);
+
+        const customerData = generateCustomerData();
+        const customerResponse = await customersController.create(customerData, token);
+        const id = customerResponse.body.Customer._id;
+        validateResponse(customerResponse, STATUS_CODES.CREATED, true, null);
+
+        const updateCustomerData = generateCustomerData();
+        const updateCustomerResponse = await customersController.update(id, updateCustomerData, token);
+
+        validateSchema(customerSchema, updateCustomerResponse.body);
+        validateResponse(updateCustomerResponse, STATUS_CODES.OK, true, null);
+        expect.soft(updateCustomerResponse.body.Customer).toMatchObject({ ...updateCustomerData });
+
+        const response = await customersController.delete(id, token);
+        expect.soft(response.status).toBe(STATUS_CODES.DELETED);
     });
 });
