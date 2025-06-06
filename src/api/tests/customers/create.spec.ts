@@ -7,6 +7,7 @@ import { STATUS_CODES } from "data/statusCodes";
 import _ from "lodash";
 import { validateSchema } from "utils/validations/schemaValidation";
 import { validateResponse } from "utils/validations/responseValidation";
+import {ICredentials} from "../../../types/user.types";
 
 
 test.describe("[API] [Customers] [Create]", () => {
@@ -72,17 +73,16 @@ test.describe("[API] [Customers] [Create]", () => {
         */
     });
 
-    test("Create customer with smoke data and Controller", async ({ request, customersController }) => {
-        const loginResponse = await request.post(apiConfig.BASE_URL + apiConfig.ENDPOINTS.LOGIN, {
-            data: { username: USER_LOGIN, password: USER_PASSWORD },
-            headers: {
-                "content-type": "application/json",
-            },
-        });
+    test("Create customer with smoke data and controllers", async ({ customersController, signInController }) => {
+        const credential: ICredentials = {
+            username: USER_LOGIN,
+            password: USER_PASSWORD,
+        };
+        const loginResponse = await signInController.signIn(credential)
 
-        const headers = loginResponse.headers();
-        token = headers["authorization"];
-        const body = await loginResponse.json();
+        const headers = loginResponse.headers;
+        token = loginResponse.headers["authorization"];
+        const body = loginResponse;
         const expectedUser = {
             _id: "680761bad006ba3d475fc6ff",
             username: "bshamukov",
@@ -92,16 +92,8 @@ test.describe("[API] [Customers] [Create]", () => {
             createdOn: "2025/04/22 09:30:34",
         };
         expect.soft(token).toBeTruthy();
-        //validateResponse(body, STATUS_CODES.OK, true, null); - error status code undefined
-        expect.soft(body.User).toMatchObject(expectedUser);
-
-        const wrappedLoginResponse = { // Fix ChatGPT error of status code
-            status: loginResponse.status(),
-            headers: loginResponse.headers(),
-            body: body
-        };
-
-        validateResponse(wrappedLoginResponse, STATUS_CODES.OK, true, null);
+        validateResponse(loginResponse, STATUS_CODES.OK, true, null);
+        expect.soft(loginResponse.body.User).toMatchObject(expectedUser);
 
         const customerData = generateCustomerData();
         const customerResponse = await customersController.create(customerData, token);

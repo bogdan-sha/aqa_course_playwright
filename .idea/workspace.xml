@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ba91f09-91fd-403b-afd9-29e9a64dbdf5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/apiClients/request.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/controllers/customers.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fixtures/controllers.fixture.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/api.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/requestParams.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/validations/responseValidation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/controllers/sign-in.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/user.types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/tests/customers/create.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/tests/customers/create.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/tests/customers/delete.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/tests/customers/delete.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/tests/customers/getByID.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/tests/customers/getByID.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/tests/customers/update.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/tests/customers/update.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/tests/signIn/sign-in.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/tests/signIn/sign-in.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/schemas/customers/sign-in.schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/schemas/customers/sign-in.schema.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/customer.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/customer.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fixtures/controllers.fixture.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/fixtures/controllers.fixture.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/api.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/api.types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +52,17 @@
     "Playwright.UI] [Sales Portal] [Customers].Should check that new customer in table successfully deleted.executor": "Run",
     "Playwright.UI] [Sales Portal] [Customers].executor": "Run",
     "Playwright.[API] [Customers] [Create].Create customer with smoke data and Controller.executor": "Run",
+    "Playwright.[API] [Customers] [Create].Create customer with smoke data and controllers.executor": "Run",
     "Playwright.[API] [Customers] [Create].Create customer with smoke data.executor": "Run",
+    "Playwright.[API] [Customers] [Delete].Should delete customer with controllers.executor": "Run",
+    "Playwright.[API] [Customers] [Delete].Should delete customer.executor": "Run",
+    "Playwright.[API] [Customers] [Get By Id].Should get created customer by id.executor": "Run",
+    "Playwright.[API] [Customers] [Get By Id].[Controllers] Should get created customer by id.executor": "Run",
     "Playwright.[API] [Customers] [Sign In].Sign in with exist user.executor": "Run",
+    "Playwright.[API] [Customers] [Sign In].[Sign In Controller] Sign in with exist user.executor": "Run",
     "Playwright.[API] [Customers] [Sign In].executor": "Run",
+    "Playwright.[API] [Customers] [Update].Update customer with smoke data.executor": "Run",
+    "Playwright.[API] [Customers] [Update].[Controllers] Update customer with smoke data.executor": "Run",
     "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with already created user.executor": "Run",
     "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with empty password.executor": "Run",
     "Playwright.[UI] [Demo Login Form] Registration.Negative cases for registration.Register with empty username.executor": "Run",
@@ -97,78 +104,79 @@
       <recent name="$PROJECT_DIR$/src/ui/pages/customers" />
     </key>
   </component>
-  <component name="RunManager" selected="Playwright.[API] [Customers] [Create].Create customer with smoke data and Controller">
-    <configuration name="UI] [Sales Portal] [Customers].Should check that new customer in table successfully deleted" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Playwright.[API] [Customers] [Update].[Controllers] Update customer with smoke data">
+    <configuration name="[API] [Customers] [Delete].Should delete customer with controllers" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/ui/tests/SalesPortal/customers/delete-new-customer.spec.ts" />
+      <test-file value="$PROJECT_DIR$/src/api/tests/customers/delete.spec.ts" />
       <test-names>
-        <test-name value="UI] [Sales Portal] [Customers]" />
-        <test-name value="Should check that new customer in table successfully deleted" />
+        <test-name value="[API] [Customers] [Delete]" />
+        <test-name value="Should delete customer with controllers" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="[API] [Customers] [Create].Create customer with smoke data and Controller" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+    <configuration name="[API] [Customers] [Get By Id].Should get created customer by id" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/api/tests/customers/create.spec.ts" />
+      <test-file value="$PROJECT_DIR$/src/api/tests/customers/getByID.spec.ts" />
       <test-names>
-        <test-name value="[API] [Customers] [Create]" />
-        <test-name value="Create customer with smoke data and Controller" />
+        <test-name value="[API] [Customers] [Get By Id]" />
+        <test-name value="Should get created customer by id" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="[API] [Customers] [Create].Create customer with smoke data" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+    <configuration name="[API] [Customers] [Get By Id].[Controllers] Should get created customer by id" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/api/tests/customers/create.spec.ts" />
+      <test-file value="$PROJECT_DIR$/src/api/tests/customers/getByID.spec.ts" />
       <test-names>
-        <test-name value="[API] [Customers] [Create]" />
-        <test-name value="Create customer with smoke data" />
+        <test-name value="[API] [Customers] [Get By Id]" />
+        <test-name value="[Controllers] Should get created customer by id" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="[API] [Customers] [Sign In]" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/api/tests/signIn/sign-in.spec.ts" />
-      <test-names>
-        <test-name value="[API] [Customers] [Sign In]" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="[API] [Customers] [Sign In].Sign in with exist user" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+    <configuration name="[API] [Customers] [Update].Update customer with smoke data" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/api/tests/signIn/sign-in.spec.ts" />
+      <test-file value="$PROJECT_DIR$/src/api/tests/customers/update.spec.ts" />
       <test-names>
-        <test-name value="[API] [Customers] [Sign In]" />
-        <test-name value="Sign in with exist user" />
+        <test-name value="[API] [Customers] [Update]" />
+        <test-name value="Update customer with smoke data" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="[API] [Customers] [Update].[Controllers] Update customer with smoke data" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/api/tests/customers/update.spec.ts" />
+      <test-names>
+        <test-name value="[API] [Customers] [Update]" />
+        <test-name value="[Controllers] Update customer with smoke data" />
       </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Playwright.[API] [Customers] [Create].Create customer with smoke data and Controller" />
-        <item itemvalue="Playwright.[API] [Customers] [Create].Create customer with smoke data" />
-        <item itemvalue="Playwright.[API] [Customers] [Sign In].Sign in with exist user" />
-        <item itemvalue="Playwright.[API] [Customers] [Sign In]" />
-        <item itemvalue="Playwright.UI] [Sales Portal] [Customers].Should check that new customer in table successfully deleted" />
+        <item itemvalue="Playwright.[API] [Customers] [Update].[Controllers] Update customer with smoke data" />
+        <item itemvalue="Playwright.[API] [Customers] [Update].Update customer with smoke data" />
+        <item itemvalue="Playwright.[API] [Customers] [Get By Id].[Controllers] Should get created customer by id" />
+        <item itemvalue="Playwright.[API] [Customers] [Get By Id].Should get created customer by id" />
+        <item itemvalue="Playwright.[API] [Customers] [Delete].Should delete customer with controllers" />
       </list>
     </recent_temporary>
   </component>
@@ -195,5 +203,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
