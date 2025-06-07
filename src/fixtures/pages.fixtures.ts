@@ -1,14 +1,21 @@
-import { test as base} from '@playwright/test'
-import {HomePage} from "../ui/pages/home.page";
-import {CustomersPage} from "../ui/pages/customers/customers.page";
-import {AddNewCustomerPage} from "../ui/pages/customers/add-new-customers.page";
-import {SignInPage} from "../ui/pages/signIn.page";
+import { test as base } from "fixtures/mock.fixture";
+import { AddNewCustomerPage } from "ui/pages/customers/add-new-customers.page";
+import { CustomersPage } from "ui/pages/customers/customers.page";
+import { HomePage } from "ui/pages/home.page";
+import { SignInPage } from "ui/pages/signIn.page";
+import { EditCustomerPage } from "ui/pages/customers/edit-customer.page";
+import { SideMenuComponent } from "ui/pages/sideMenu.page";
+import { CustomerDetailsPage } from "ui/pages/customers/customer-details.page";
+
 
 interface ISalesPortalPages {
     homePage: HomePage;
     customersPage: CustomersPage;
     addNewCustomerPage: AddNewCustomerPage;
     signInPage: SignInPage;
+    editCustomerPage: EditCustomerPage;
+    sideMenu: SideMenuComponent;
+    customerDetailsPage: CustomerDetailsPage;
 }
 
 export const test = base.extend<ISalesPortalPages>({
@@ -17,7 +24,7 @@ export const test = base.extend<ISalesPortalPages>({
     },
 
     customersPage: async ({ page }, use) => {
-        await use(new CustomersPage(page))
+        await use(new CustomersPage(page));
     },
 
     addNewCustomerPage: async ({ page }, use) => {
@@ -26,7 +33,19 @@ export const test = base.extend<ISalesPortalPages>({
 
     signInPage: async ({ page }, use) => {
         await use(new SignInPage(page));
-    }
+    },
+
+    editCustomerPage: async ({ page }, use) => {
+        await use(new EditCustomerPage(page));
+    },
+
+    sideMenu: async ({ page }, use) => {
+        await use(new SideMenuComponent(page));
+    },
+
+    customerDetailsPage: async ({ page }, use) => {
+        await use(new CustomerDetailsPage(page));
+    },
 })
 
-export { expect } from '@playwright/test'
+export { expect } from '@playwright/test';

@@ -1,5 +1,5 @@
 import { test as base, expect } from "./pages.fixtures";
-import {PORTAL_URL, USER_LOGIN, USER_PASSWORD} from "../config/environment";
+import { PORTAL_URL, USER_LOGIN, USER_PASSWORD } from "../config/environment";
 
 interface IBusinessSteps {
     loginAsLocalUser(): Promise<void>;

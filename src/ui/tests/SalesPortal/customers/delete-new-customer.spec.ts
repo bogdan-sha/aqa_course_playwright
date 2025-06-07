@@ -1,4 +1,4 @@
-import { test, expect } from "fixtures/businessSteps.fixtures";
+import { test, expect } from "fixtures/businessSteps.fixture";
 import { generateCustomerData } from "data/customers/generateCustomer.data";
 import {COUNTRIES} from "../../../../data/customers/countries.data";
 import {NOTIFICATIONS} from "../../../../data/notifications.data";

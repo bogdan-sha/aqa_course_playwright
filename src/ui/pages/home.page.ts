@@ -1,22 +1,20 @@
 import { Locator, Page } from "@playwright/test";
-import {ModuleName} from "../../types/home.types";
-import {SalesPortalPage} from "./salesPortal.page";
+import { ModuleName } from "types/home.types";
+import { SalesPortalPage } from "./salesPortal.page";
 
 
-export class HomePage extends SalesPortalPage{
+export class HomePage extends SalesPortalPage {
 
-    title= this.page.locator('.welcome-text');
-    customerButton = this.page.getByRole('link', { name: 'Customer' });
+    title = this.page.locator('.welcome-text');
+    customersButton = this.page.getByRole('link', { name: 'Customer' });
     productsButton = this.page.getByRole('link', { name: 'Products' });
     ordersButton = this.page.getByRole('link', { name: 'Orders' });
 
     uniqueElement = this.title;
 
     async clickModuleButton(moduleName: ModuleName) {
-        let moduleButton: Locator;
-
         const moduleButtons: Record<ModuleName, Locator> = {
-            Customers: this.customerButton,
+            Customers: this.customersButton,
             Products: this.productsButton,
             Orders: this.ordersButton,
         };
@@ -24,4 +22,3 @@ export class HomePage extends SalesPortalPage{
         await moduleButtons[moduleName].click();
     }
 }
-

@@ -1,6 +1,6 @@
 import { test as base } from "@playwright/test";
 import { CustomersController } from "api/controllers/customers.controller";
-import {SignInController} from "../api/controllers/sign-in.controller";
+import { SignInController } from "../api/controllers/sign-in.controller";
 
 interface ISalesPortalControllers {
     customersController: CustomersController;
@@ -8,11 +8,12 @@ interface ISalesPortalControllers {
 }
 
 export const test = base.extend<ISalesPortalControllers>({
-    customersController: async ({}, use) => {
-        await use(new CustomersController());
+    customersController: async ({ request }, use) => {
+        await use(new CustomersController(request));
     },
     signInController: async ({ }, use) => {
         await use(new SignInController());
     },
 });
+
 export { expect } from "@playwright/test";

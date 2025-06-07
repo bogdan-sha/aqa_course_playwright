@@ -8,7 +8,7 @@ export interface IRequestOptions {
 
 export interface IResponse<T extends object | null> {
     status: number;
-    headers: Record<string, string>;
+    headers: Record<string, string>; // у Толи объект
     body: T;
 }
 
@@ -16,3 +16,7 @@ export interface IResponseFields {
     IsSuccess: boolean;
     ErrorMessage: string | null;
 }
+
+export type sortDirection = "asc" | "desc";
+
+export type customersSortField = "createdOn" | "email" | "name" | "country";
