@@ -1,6 +1,6 @@
 import { test as base } from "@playwright/test";
 import { CustomersController } from "api/controllers/customers.controller";
-import { SignInController } from "../api/controllers/sign-in.controller";
+import { SignInController } from "api/controllers/sign-in.controller";
 
 interface ISalesPortalControllers {
     customersController: CustomersController;
