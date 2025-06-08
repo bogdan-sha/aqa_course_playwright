@@ -1,10 +1,12 @@
 import { test as base } from "@playwright/test";
 import { CustomersController } from "api/controllers/customers.controller";
 import { SignInController } from "api/controllers/sign-in.controller";
+import {ProductsController} from "../api/controllers/products.controller";
 
 interface ISalesPortalControllers {
     customersController: CustomersController;
     signInController: SignInController;
+    productsController: ProductsController;
 }
 
 export const test = base.extend<ISalesPortalControllers>({
@@ -13,6 +15,9 @@ export const test = base.extend<ISalesPortalControllers>({
     },
     signInController: async ({ request }, use) => {
         await use(new SignInController(request));
+    },
+    productsController: async ({ request }, use) => {
+        await use(new ProductsController(request));
     },
 });
 
